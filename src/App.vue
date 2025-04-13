@@ -50,7 +50,7 @@
                     <div class="md:flex md:flex-col md:items-center">
                         <img
                             class="w-full object-cover max-h-60"
-                            :src="site.img"
+                            :src="getImageUrl(site.img)"
                             :alt="site.link"
                         />
                         <div class="flex flex-row p-2 font-semibold tracking-wide uppercase">
@@ -110,6 +110,12 @@ export default {
             buttons: buttons,
             sites:   sites,
             prices:  prices
+        }
+    }, 
+    methods: {
+        getImageUrl(name) {
+            // note that this does not include files in subdirectories
+            return new URL(`/src/assets/img/${name}.webp`, import.meta.url).href
         }
     }
 }

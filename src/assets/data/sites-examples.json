@@ -1,18 +1,18 @@
 [
     {
         "link": "https://avantechparts.co.kr/ru/",
-        "img": "/src/assets/img/avantech.webp"
+        "img": "avantech"
     },
     {
         "link": "https://kangaru.ru/",
-        "img": "/src/assets/img/kangaroo.webp"
+        "img": "kangaroo"
     },
     {
         "link": "https://soft99.ru/",
-        "img": "/src/assets/img/soft99.webp"
+        "img": "soft99"
     },
     {
         "link": "https://uniqom.ru/",
-        "img": "/src/assets/img/uniqom.webp"
+        "img": "uniqom"
     }
 ]
