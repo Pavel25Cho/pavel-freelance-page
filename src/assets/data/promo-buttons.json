@@ -1,0 +1,34 @@
+[
+    {
+        "title": "Примеры работ",
+        "link": "#examples",
+        "target": "",
+        "class": "lg:hidden block",
+        "svg": false,
+        "telegram": false
+    },
+    {
+        "title": "Прайс-лист",
+        "link": "#price",
+        "target": "",
+        "class": "",
+        "svg": false,
+        "telegram": false
+    },
+    {
+        "title": "Написать",
+        "link": "https://t.me/pave1cho",
+        "target": "_blank",
+        "class": "flex lg:items-center justify-center-safe",
+        "svg": false,
+        "telegram": true
+    },
+    {
+        "title": "Пример договора",
+        "link": "docs/RK_example.docx",
+        "target": "",
+        "class": "flex lg:items-center justify-center-safe",
+        "svg": true,
+        "telegram": false
+    }
+]
